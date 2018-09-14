@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Luigi's Pizzeria</title> 
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+		<meta content="width=device-width,initial-scale=1.0" name="viewport">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo">
+		<link rel="stylesheet" href="./css/pizza.css">
+		<style>
+		#menuBG{width:400px;height:470px;margin:10px auto;}#frmMenu{width:400px;height:200px;}
+		#totalPrice{width:200px;height:190px;margin:0 auto;float:right;}.left{width:200px;height:200px;float:left;}
+		.right{width:200px;height:200px;float:right;}
+		#showText{width:200px;height:190px;margin:0px auto;float:left;}
+		#cart{top:0;margin:0px auto;width:400px;height:200px;}
+		#btnOrder{margin:10px 0px 0px 100px;width:100px;height:40px}
+		</style>
+	</head>
+	<body>
+		<div id="menuBG">
+			<h1 style="margin:0 0px 0 20px;">Place an Order with Luigi's Pizzeria</h1>
+			
+				<form id="frmMenu">
+					<div class="menu left">
+						<h3>Pizza Size:</h3>
+						<input class="size" type="radio" name="Size" value="Personal Pizza"> Personal Pizza<br>
+						<input class="size" type="radio" name="Size" value="Medium Pizza">
+						Medium Pizza<br>
+						<input class="size" type="radio" name="Size" value="Large Pizza">
+						Large Pizza<br>
+						<input class="size" type="radio" name="Size" value="Extra Large Pizza">
+						Extra Large Pizza<br>
+					</div>
+					<div class="menu right">
+						<h3>Meats:</h3>
+						<input class="meats" type="checkbox" name="Meat" value="Pepperoni">Pepperoni
+						<br>
+						<input class="meats" type="checkbox" name="Meat" value="Sausage">Sausage<br>
+						<input class="meats" type="checkbox" name="Meat" value="Canadian Bacon">Canadian Bacon<br>
+						<input class="meats" type="checkbox" name="Meat" value="Ground Beef">Ground Beef<br>
+						<input class="meats" type="checkbox" name="Meat" value="Anchovy"> Anchovy<br>
+						<input class="meats" type="checkbox" name="Meat" value="Chicken">
+						 Chicken<br>
+					</div>
+					<div class="menu left">
+						<h3>Cheeses</h3>
+						<input class="cheeses" type="radio" name="Cheese" value="No Cheese">No Cheese<br>
+						<input class="cheeses" type="radio" name="Cheese" value="Regular">Regular<br>
+						<input class="cheeses" type="radio" name="Cheese" value="Extra Cheese">Extra Cheese<br>
+						</div>
+					<div class="menu right">
+						<h3>Crusts</h3>
+						<input class="crusts" type="radio" name="Crust" value="Plain">Plain<br>
+						<input class="crusts" type="radio" name="Crust" value="Garlic Butter">Garlic
+						Butter<br>
+						<input class="crusts" type="radio" name="Crust" value="Cheese Stuffed">Cheese
+						Stuffed<br>
+						<input class="crusts" type="radio" name="Crust" value="Spicy">Spicy<br>
+						<input class="crusts" type="radio" name="Crust" value="House Special">House Special<br>
+						</div>
+					<div class="menu left">
+						<h3>Sauces</h3>
+						<input class="sauces" type="radio" name="Sauce" value="None">None<br>
+						<input class="sauces" type="radio" name="Sauce" value="White">White<br>
+						<input class="sauces" type="radio" name="Sauce" value="Barbeque">Barbeque<br>
+						<input class="sauces" type="radio" name="Sauce" value="Marinara">Marinara<br>
+						</div>
+					<div class="menu right">
+						<h3>Veggies</h3>
+						<input class="veggies" type="checkbox" name="Veggie" value="Tomatoes">Tomatoes<br>
+						<input class="veggies" type="checkbox" name="Veggie" value="Onions">Onions<br>
+						<input class="veggies" type="checkbox" name="Veggie" value="Olives">Olives<br>
+						<input class="veggies" type="checkbox" name="Veggie" value="Green Peppers">
+						Green Peppers<br>
+						<input class="veggies" type="checkbox" name="Veggie" value="Mushrooms">Mushrooms<br>
+						<input class="veggies" type="checkbox" name="Veggie" value="Pineapple">Pineapple<br>
+						<input class="veggies" type="checkbox" name="Veggie" value="Spinach">Spinach<br>
+						<input class="veggies" type="checkbox" name="Veggie" value="Jalapeno">Jalapeno
+						<br>
+						</div>
+					</form> <br>
+					<div class="footer">
+						<button type="button" onclick="getReceipt()">
+						<p>Place Order</p> 
+						<button type="button" onclick="clearAll()">
+						<p>Start Over</p>
+						</div>
+				
+					<div id="cart">
+					<div id="title1">
+					<h3>You Ordered: </h3> </div>
+						<div id="showText1"></div>
+					<div id="title2">
+					<h3>Subtotal:</h3>
+					</div>
+						<div id="showText2"></div>
+						<div id="totalPrice1"><h3>Total:</h3>
+						<div id="totalPrice2"></div>
+						</div>
+						</div>
+			<script src="./js/pizza_drill.js">
+			</script>
+			</body>
+		</html>
+		
+	
+	
