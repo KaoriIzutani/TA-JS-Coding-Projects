@@ -173,9 +173,10 @@ if (selectedSize === "Personal Pizza") {
  runningTotal = (runningTotal + crustTotal);
 	text2 = text2 +crustTotal + "<br>";
 	document.getElementById("cart").style.opacity=1;
-	document.getElementById("showText1").innerHTML=text1;
-	document.getElementById("showText2").innerHTML=text2;
-	document.getElementById("totalPrice2").innerHTML=runningTotal;	
+	document.getElementById("showText1").innerHTML= text1;
+	document.getElementById("showText2").innerHTML= text2;
+	document.getElementById("totalPrice2").innerHTML='$' +runningTotal;
+	
  };
 	
 function clearAll() {		
