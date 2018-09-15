@@ -2,54 +2,22 @@ h1 {
 		font-family: 'Baloo', serif;
 		font-size: 48px;
 		}
-h3 {
+h4 {
 		font-family: 'Baloo', serif;
 		font-size: 32px;
+		width: 200px;
 		} 
 	
-.footer {
+button {
 	position: relative;
-	margin-top:500px;
+	margin-top: 50px;
 	}	
-#showtext1 {
-	font-size: 13px;
-	flex: 1 250px;
-	padding: 1px 0 10px 10px;
-	width: 250px;
-	border-radius: 0 0 0 0;
+
+div.menu  {
+	height: 300px;
+	width: 200px;
 }
 
-#showText2 {
-	font-size: 13px;
-	flex: 1 250px;
-	padding: 1px 0 10px 10px;
-	width: 250px;
-	border-radius: 0 0 0 0;
-}
-	
-#totalPrice1 {
-	flex: 1 250px;
-	padding: 0 0 10px 10px;
-	width: 250px;
-	border-radius: 0 0 0 0;
-}
-
-#title1 {
-	display: table;
-	height: 50px;
-	width: 250px;
-	padding: 0 0 0px 10px;
-	border-radius: 25px 0 0 0;
-}
-
-#title2 {
-	display: table;
-	height: 50px;
-	width: 250px;
-	padding: 0 0 0px 10px;
-	border-radius: 0 25px 0 0;
-}
-	
 	
 
 
